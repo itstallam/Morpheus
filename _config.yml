@@ -1,17 +1,17 @@
 # ═══════════════════════════════════════════════════
-#  THEME: Hacker Terminal
-#  Base: jekyll-theme-hacker  (GitHub Pages whitelisted)
-#  Vibe: Green phosphor on black. Classic terminal aesthetic.
+#  THEME: Slate Obsidian
+#  Base: jekyll-theme-slate  (GitHub Pages whitelisted)
+#  Vibe: Polished obsidian with hammered gold and crimson accents.
 # ═══════════════════════════════════════════════════
 
 # REQUIRED — must be a GitHub Pages supported theme
-theme: jekyll-theme-hacker
+theme: jekyll-theme-slate
 
 # Site metadata
-title: "MORPHEUS 1"
-description: "Green phosphor on black. Classic terminal aesthetic."
+title: "Morpheus"
+description: "Boot to r00t"
 show_downloads: false
-baseurl: "/ Morpheus"
+baseurl: "/Morpheus"
 url: ""
 
 # Plugins supported by GitHub Pages safe mode
@@ -27,4 +27,4 @@ author:
 
 # IMPORTANT: To activate the dark skin, create this file in your repo:
 #   assets/css/style.scss
-# And paste the contents from hacker_terminal_style.scss
+# And paste the contents from slate_obsidian_style.scss
