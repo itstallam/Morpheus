@@ -1,0 +1,105 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ═══════════════════════════════════════════════════
+   DARK OVERRIDE: Hacker Terminal
+   Base theme: jekyll-theme-hacker
+   ═══════════════════════════════════════════════════ */
+
+:root {
+  --bg-deep:     #050a05;
+  --bg-panel:    #0a140a;
+  --text:        #e0f0e0;
+  --text-dim:    #4a6b4a;
+  --accent:      #33ff33;
+  --accent2:     #ffb000;
+  --border:      #112211;
+  --code-bg:     #080f08;
+}
+
+body {
+  background-color: var(--bg-deep) !important;
+  color: var(--text) !important;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
+}
+
+/* Main content wrapper */
+.container,
+.wrapper,
+#main-content,
+.page-content {
+  background: var(--bg-panel) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0px !important;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.8), 0 0 0 1px #112211 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.project-name,
+.page-header .project-name,
+header h1, header h2 {
+  color: var(--accent) !important;
+  font-family: 'VT323', 'IBM Plex Mono', monospace !important;
+}
+
+/* Links */
+a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: var(--accent2) !important;
+  text-decoration: underline !important;
+}
+
+/* Code blocks */
+pre, code,
+.highlight pre,
+.highlight code {
+  background: var(--code-bg) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--accent) !important;
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace !important;
+}
+
+/* Tables */
+table {
+  background: var(--bg-panel) !important;
+  border: 1px solid var(--border) !important;
+}
+th, td {
+  border: 1px solid var(--border) !important;
+}
+th {
+  background: var(--code-bg) !important;
+  color: var(--accent) !important;
+}
+
+/* Horizontal rules */
+hr {
+  border: 0 !important;
+  border-top: 1px solid var(--border) !important;
+}
+
+/* Buttons / tags */
+.btn,
+button,
+.markdown-body .btn {
+  background: var(--bg-panel) !important;
+  border: 1px solid var(--accent) !important;
+  color: var(--accent) !important;
+  border-radius: 0px !important;
+}
+.btn:hover {
+  background: var(--accent) !important;
+  color: var(--bg-deep) !important;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent) !important;
+  color: var(--bg-deep) !important;
+}
