@@ -1,14 +1,12 @@
-# ═══════════════════════════════════════════════════
-#  THEME: Modernist Cyber
-#  Base: jekyll-theme-modernist  (GitHub Pages whitelisted)
-#  Vibe: Cyberpunk neon bloom
-# ═══════════════════════════════════════════════════
+# Theme: Modernist Cyber
+# Base: jekyll-theme-modernist (GitHub Pages whitelisted)
+# Vibe: Cyberpunk neon bloom
 
 theme: jekyll-theme-modernist
-title: "MORPHEUS 1".
-description: "Boot to r00t."
+title: "MORPHEUS 1"
+description: "  bOOT TO R00T."
 show_downloads: false
-baseurl: "/Empire-BreakOut"
+baseurl: "/Morpheus"
 url: ""
 
 plugins:
