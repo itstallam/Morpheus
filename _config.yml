@@ -1,19 +1,32 @@
-# Theme: Modernist Cyber
-# Base: jekyll-theme-modernist (GitHub Pages whitelisted)
-# Vibe: Cyberpunk neon bloom
+title: "Modernist Cyber"
+description: >-
+  A clean, modernist grid layout with a cyber-neon edge —
+  sharp type, sharp lines, dark background.
 
 theme: jekyll-theme-modernist
-title: "MORPHEUS 1"
-description: "  bOOT TO R00T."
-show_downloads: false
+
+show_downloads: true
+google_analytics:
 baseurl: "/Morpheus"
-url: ""
+url: "https://github.com/itstallam"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-relative-links
 
-author:
-  name: itstallam
-  url: https://github.com/itstallam
+nav_links:
+  - title: Home
+    url: /
+  - title: Lab
+    url: /lab/
+  - title: Blog
+    url: /blog/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
