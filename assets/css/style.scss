@@ -1,105 +1,75 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-hacker";
 
 /* ═══════════════════════════════════════════════════
-   DARK OVERRIDE: Slate Obsidian
-   Base theme: jekyll-theme-slate
+   DARK OVERRIDE: Hacker Terminal
    ═══════════════════════════════════════════════════ */
 
-:root {
-  --bg-deep:     #090908;
-  --bg-panel:    #121110;
-  --text:        #f2efe9;
-  --text-dim:    #5e5a52;
-  --accent:      #d4af37;
-  --accent2:     #ef4444;
-  --border:      #252320;
-  --code-bg:     #0e0d0b;
-}
-
 body {
-  background-color: var(--bg-deep) !important;
-  color: var(--text) !important;
-  font-family: 'Inter', 'Roboto', sans-serif !important;
+  background-color: #050a05;
+  color: #e0f0e0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
-/* Main content wrapper */
-.container,
-.wrapper,
-#main-content,
-.page-content {
-  background: var(--bg-panel) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 2px !important;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(212,175,55,0.08) !important;
+.container, .wrapper, #main-content, .page-content {
+  background: #0a140a;
+  border: 1px solid #112211;
+  border-radius: 0px;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6,
-.project-name,
-.page-header .project-name,
-header h1, header h2 {
-  color: var(--accent) !important;
-  font-family: 'Cinzel', 'Playfair Display', serif !important;
+.project-name, .page-header h1, header h1, header h2 {
+  color: #33ff33;
+  font-family: 'VT323', monospace;
 }
 
-/* Links */
 a {
-  color: var(--accent) !important;
-  text-decoration: none !important;
+  color: #33ff33;
+  text-decoration: none;
 }
 a:hover {
-  color: var(--accent2) !important;
-  text-decoration: underline !important;
+  color: #ffb000;
+  text-decoration: underline;
 }
 
-/* Code blocks */
-pre, code,
-.highlight pre,
-.highlight code {
-  background: var(--code-bg) !important;
-  border: 1px solid var(--border) !important;
-  color: var(--accent) !important;
-  font-family: 'IBM Plex Mono', 'Fira Code', monospace !important;
+pre, code, .highlight pre, .highlight code {
+  background: #080f08;
+  border: 1px solid #112211;
+  color: #33ff33;
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace;
 }
 
-/* Tables */
 table {
-  background: var(--bg-panel) !important;
-  border: 1px solid var(--border) !important;
+  background: #0a140a;
+  border: 1px solid #112211;
 }
 th, td {
-  border: 1px solid var(--border) !important;
+  border: 1px solid #112211;
 }
 th {
-  background: var(--code-bg) !important;
-  color: var(--accent) !important;
+  background: #080f08;
+  color: #33ff33;
 }
 
-/* Horizontal rules */
 hr {
-  border: 0 !important;
-  border-top: 1px solid var(--border) !important;
+  border: 0;
+  border-top: 1px solid #112211;
 }
 
-/* Buttons / tags */
-.btn,
-button,
-.markdown-body .btn {
-  background: var(--bg-panel) !important;
-  border: 1px solid var(--accent) !important;
-  color: var(--accent) !important;
-  border-radius: 2px !important;
+.btn, button {
+  background: #0a140a;
+  border: 1px solid #33ff33;
+  color: #33ff33;
+  border-radius: 0px;
 }
 .btn:hover {
-  background: var(--accent) !important;
-  color: var(--bg-deep) !important;
+  background: #33ff33;
+  color: #050a05;
 }
 
-/* Selection */
 ::selection {
-  background: var(--accent) !important;
-  color: var(--bg-deep) !important;
+  background: #33ff33;
+  color: #050a05;
 }
