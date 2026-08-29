@@ -1,83 +1,21 @@
-# ═══════════════════════════════════════════
-#  THEME: NECROMANCER
-#  Vibe: Gothic death-magic. Rotting velvet,
-#  candlewax, and tombstone moss.
-# ═══════════════════════════════════════════
+theme: jekyll-theme-hacker
+title: EMPIRE BREAKOUT
+description: Empire Breakout Penetration Testing Walkthrough.
+show_downloads: false
+baseurl: "/Empire-BreakOut"
+url: ""  # Set to your GitHub Pages URL if needed
 
-title: "Your Site"
-description: "A site built on bones"
-baseurl: ""
-url: ""
-
-# Jekyll build
-markdown: kramdown
-highlighter: rouge
+# GitHub Pages compatible plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# ── Theme Engine ──
-theme: null                    # We override via sass / custom CSS
-skin: necromancer
+# Optional: custom metadata for your write-ups
+author:
+  name: itstallam
+  url: https://github.com/itstallam
 
-# ── Color Necromancy ──
-colors:
-  # Backgrounds (layered like a crypt)
-  bg_deep:       "#070508"     # Abyss — page background
-  bg_surface:    "#0f0b12"     # Coffin lid — cards, nav
-  bg_hover:      "#16121a"     # Hover state
-  bg_elevated:   "#1c1721"     # Modals, dropdowns
-
-  # Text (faded parchment to fresh bone)
-  text_primary:  "#e0d8cf"     # Bone white
-  text_secondary:"#9a9189"     # Dusty ash
-  text_muted:    "#5c554f"     # Tombstone engraving
-  text_inverse:  "#070508"     # On light accents
-
-  # Accents (soul-flame & poison)
-  accent:        "#8b5cf6"     # Spectral violet
-  accent_dim:    "#4c2a8a"     # Faded rune
-  accent_glow:   "rgba(139,92,246,0.18)"
-  secondary:     "#22c55e"     # Necrotic green (tomb moss)
-  secondary_dim: "#14522d"
-  danger:        "#ef4444"     # Blood offering
-  warning:       "#f59e0b"     # Candle flame
-
-  # Hairlines & borders
-  border:        "#2a2230"     # Cracked stone
-  border_hover:  "#3d3247"
-
-  # Code syntax (rouge theme override)
-  code_bg:       "#110e14"
-  code_inline:   "#ff79c6"     # Ritual pink
-
-# ── Typography ──
-fonts:
-  heading: "'Cinzel', 'Playfair Display', Georgia, serif"  # Gothic serifs
-  body:    "'Source Serif 4', 'Merriweather', Georgia, serif"
-  mono:    "'JetBrains Mono', 'Fira Code', monospace"      # Spell inscriptions
-  size_base: "16px"
-  size_scale: "1.25"   # Major third
-
-# ── Atmosphere ──
- effects:
-  grain: true                    # Subtle noise texture overlay
-  vignette: true                 # Darkened screen edges
-  glow_radius: "900px"           # Radial accent glow
-
-# ── Layout Tokens ──
-layout:
-  radius: "2px"                 # Sharp like a blade
-  shadow: "0 4px 24px rgba(0,0,0,0.6), 0 0 0 1px var(--border)"
-  max_width: "880px"
-  sidebar: false
-
-# ── Assets ──
-sass:
-  style: compressed
-  sass_dir: _sass
-
-# ── Custom Head ──
-head_tags: |
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+# Hacker theme extras
+show_downloads: false
+google_analytics:
