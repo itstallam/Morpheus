@@ -5,71 +5,134 @@
 
 /* ═══════════════════════════════════════════════════
    DARK OVERRIDE: Hacker Terminal
+   Aggressive overrides for jekyll-theme-hacker
    ═══════════════════════════════════════════════════ */
 
+html,
 body {
-  background-color: #050a05;
-  color: #e0f0e0;
-  font-family: 'IBM Plex Mono', monospace;
+  background-color: #050a05 !important;
+  color: #e0f0e0 !important;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace !important;
 }
 
-.container, .wrapper, #main-content, .page-content {
-  background: #0a140a;
-  border: 1px solid #112211;
-  border-radius: 0px;
+/* Kill every light wrapper the theme might use */
+.container,
+.wrapper,
+#main-content,
+.page-content,
+.markdown-body,
+.post-content,
+article,
+section {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  color: #e0f0e0 !important;
+  border: 1px solid #112211 !important;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6,
-.project-name, .page-header h1, header h1, header h2 {
-  color: #33ff33;
-  font-family: 'VT323', monospace;
+.project-name,
+.page-header .project-name,
+header h1, header h2,
+.post-title {
+  color: #33ff33 !important;
+  font-family: 'VT323', 'IBM Plex Mono', monospace !important;
 }
 
-a {
-  color: #33ff33;
-  text-decoration: none;
+/* Links */
+a,
+.markdown-body a,
+.post-content a {
+  color: #33ff33 !important;
+  text-decoration: none !important;
 }
-a:hover {
-  color: #ffb000;
-  text-decoration: underline;
-}
-
-pre, code, .highlight pre, .highlight code {
-  background: #080f08;
-  border: 1px solid #112211;
-  color: #33ff33;
-  font-family: 'IBM Plex Mono', 'Fira Code', monospace;
+a:hover,
+.markdown-body a:hover {
+  color: #ffb000 !important;
+  text-decoration: underline !important;
 }
 
-table {
-  background: #0a140a;
-  border: 1px solid #112211;
-}
-th, td {
-  border: 1px solid #112211;
-}
-th {
-  background: #080f08;
-  color: #33ff33;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #112211;
+/* Code */
+pre, code,
+.highlight pre,
+.highlight code,
+.markdown-body pre,
+.markdown-body code {
+  background: #080f08 !important;
+  background-color: #080f08 !important;
+  border: 1px solid #112211 !important;
+  color: #33ff33 !important;
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace !important;
 }
 
-.btn, button {
-  background: #0a140a;
-  border: 1px solid #33ff33;
-  color: #33ff33;
-  border-radius: 0px;
+/* Tables */
+table,
+.markdown-body table {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border: 1px solid #112211 !important;
 }
-.btn:hover {
-  background: #33ff33;
-  color: #050a05;
+th, td,
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #112211 !important;
+}
+th,
+.markdown-body th {
+  background: #080f08 !important;
+  background-color: #080f08 !important;
+  color: #33ff33 !important;
 }
 
+/* Horizontal rules */
+hr,
+.markdown-body hr {
+  border: 0 !important;
+  border-top: 1px solid #112211 !important;
+}
+
+/* Buttons */
+.btn,
+button,
+.markdown-body .btn {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border: 1px solid #33ff33 !important;
+  color: #33ff33 !important;
+}
+.btn:hover,
+button:hover {
+  background: #33ff33 !important;
+  background-color: #33ff33 !important;
+  color: #050a05 !important;
+}
+
+/* Selection */
 ::selection {
-  background: #33ff33;
-  color: #050a05;
+  background: #33ff33 !important;
+  color: #050a05 !important;
+}
+
+/* Lists */
+ul, ol, li,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body li {
+  color: #e0f0e0 !important;
+}
+
+/* Paragraphs and spans inside content */
+p, span, div,
+.markdown-body p,
+.markdown-body span {
+  color: #e0f0e0 !important;
+}
+
+/* Force the header banner dark */
+.page-header,
+header {
+  background: #0a140a !important;
+  background-color: #0a140a !important;
+  border-bottom: 1px solid #112211 !important;
 }
