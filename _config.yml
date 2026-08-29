@@ -1,21 +1,30 @@
-theme: jekyll-theme-hacker
-title: MORPHEUS 1
-description: From Reconnaissance to Root Access
-show_downloads: false
-baseurl: "/Empire-BreakOut"
-url: ""  # Set to your GitHub Pages URL if needed
+# ═══════════════════════════════════════════════════
+#  THEME: Hacker Terminal
+#  Base: jekyll-theme-hacker  (GitHub Pages whitelisted)
+#  Vibe: Green phosphor on black. Classic terminal aesthetic.
+# ═══════════════════════════════════════════════════
 
-# GitHub Pages compatible plugins
+# REQUIRED — must be a GitHub Pages supported theme
+theme: jekyll-theme-hacker
+
+# Site metadata
+title: "MORPHEUS 1"
+description: "Green phosphor on black. Classic terminal aesthetic."
+show_downloads: false
+baseurl: "/ Morpheus"
+url: ""
+
+# Plugins supported by GitHub Pages safe mode
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Optional: custom metadata for your write-ups
+# Author info
 author:
   name: itstallam
   url: https://github.com/itstallam
 
-# Hacker theme extras
-show_downloads: false
-google_analytics:
+# IMPORTANT: To activate the dark skin, create this file in your repo:
+#   assets/css/style.scss
+# And paste the contents from hacker_terminal_style.scss
