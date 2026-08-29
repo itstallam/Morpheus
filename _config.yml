@@ -1,5 +1,15 @@
 theme: jekyll-theme-modernist
-title: MORPHEUS 1
-description: Boot to root.
+title: "MORPHEUS 1"
+description: "Boot to root."
 show_downloads: false
 baseurl: "/Morpheus"
+url: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: itstallam
+  url: https://github.com/itstallam
