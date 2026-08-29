@@ -1,30 +1,20 @@
 # ═══════════════════════════════════════════════════
-#  THEME: Slate Obsidian
-#  Base: jekyll-theme-slate  (GitHub Pages whitelisted)
-#  Vibe: Polished obsidian with hammered gold and crimson accents.
+#  THEME: Hacker Terminal
+#  Base: jekyll-theme-hacker  (GitHub Pages whitelisted)
 # ═══════════════════════════════════════════════════
 
-# REQUIRED — must be a GitHub Pages supported theme
-theme: jekyll-theme-slate
-
-# Site metadata
-title: "Morpheus"
-description: "Boot to r00t"
+theme: jekyll-theme-hacker
+title: "MORPHEUS 1"
+description: "Boot to root"
 show_downloads: false
 baseurl: "/Morpheus"
 url: ""
 
-# Plugins supported by GitHub Pages safe mode
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Author info
 author:
   name: itstallam
   url: https://github.com/itstallam
-
-# IMPORTANT: To activate the dark skin, create this file in your repo:
-#   assets/css/style.scss
-# And paste the contents from slate_obsidian_style.scss
