@@ -1,13 +1,14 @@
 # ═══════════════════════════════════════════════════
-#  THEME: Hacker Terminal
-#  Base: jekyll-theme-hacker  (GitHub Pages whitelisted)
+#  THEME: Modernist Cyber
+#  Base: jekyll-theme-modernist  (GitHub Pages whitelisted)
+#  Vibe: Cyberpunk neon bloom
 # ═══════════════════════════════════════════════════
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-modernist
 title: "MORPHEUS 1"
-description: "Boot to root"
+description: "Boot to r00t."
 show_downloads: false
-baseurl: "/Morpheus"
+baseurl: "/Empire-BreakOut"
 url: ""
 
 plugins:
